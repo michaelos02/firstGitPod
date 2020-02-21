@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "description": "Walking it through!",
+  "author": "Michael O'S",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelos02/firstGitPod"
+  }
+}
