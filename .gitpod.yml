@@ -1,4 +1,4 @@
 tasks:
   - init: npm install -g @google/clasp
     command: npm install --save @types/google-apps-script
-    command: claps login --no-localhost
+    command: clasp login --no-localhost
