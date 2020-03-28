@@ -1,0 +1,23 @@
+<script>
+<!-- when page loads run the iniitalization code -->
+  if( document.readyState !== 'loading' ) {
+    console.log( 'document is already ready, just execute code here' );
+    myInitCode();
+  } else {
+    document.addEventListener('DOMContentLoaded', function () {
+    console.log( 'document was not ready, place code here' );
+    myInitCode();
+  });
+  }
+  
+function myInitCode() {
+  
+  document.getElementById("btn-close").addEventListener("click",closeIt);
+}
+
+function closeIt(){
+    google.script.host.close();
+}
+
+
+</script>
